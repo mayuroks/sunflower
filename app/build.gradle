@@ -45,7 +45,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("/Users/mayur/Documents/practice/keys/sunflower.jks")
+            storeFile file("../keys/sunflower.jks")
             storePassword "sunflower"
             keyAlias "sunflower"
             keyPassword "sunflower"
