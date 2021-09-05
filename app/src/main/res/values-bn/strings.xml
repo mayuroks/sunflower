@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Translatable resources -->
     <string name="menu_filter_by_grow_zone">গাছ বৃদ্ধি এলাকা বাছাই</string>
     <string name="plant_detail_image_content_description">গাছের ছবি</string>
@@ -33,12 +33,12 @@
     <!-- String plurals and their related prefix / suffix strings -->
     <string name="watering_needs_prefix">জল দেয়া প্রয়োজন</string>
     <plurals name="watering_needs_suffix">
-        <item quantity="one">প্রতি দিন</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">প্রতি দিন</item>
         <item quantity="other">প্রতি %d দিন</item>
     </plurals>
 
     <plurals name="watering_next">
-        <item quantity="one">আগামী কাল জল দিন।</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">আগামী কাল জল দিন।</item>
         <item quantity="other">জল দিন %d দিন পর।</item>
     </plurals>
 
